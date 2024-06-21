@@ -8,7 +8,6 @@ docker volume create <nombre volumen>
 ```
 
 ### Crear el volumen nombrado: vol-postgres
-# COMPLETAR CON EL COMANDO
 
 ```
 docker volume create vol-postgres
