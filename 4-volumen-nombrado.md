@@ -69,11 +69,33 @@ docker run -d --name server-drupal --publish published=9700,target=80 -v <nombre
 ```
 
 ### Ingrese al server-drupal y siga el paso a paso para la instalación.
-# COMPLETAR CON UNA CAPTURA DE PANTALLA DEL PASO 4
+# CAPTURA DE PANTALLA DEL PASO 4
+
+![image](https://github.com/DonobanR/2024A-ISWD633-Practica3/assets/135273301/c16bffee-35f8-4bd1-9d61-6010b5f67f44)
+
 
 _La instalación puede tomar varios minutos, mientras espera realice un diagrama de los contenedores que ha creado en este apartado._
 
-# COMPLETAR CON EL DIAGRAMA SOLICITADO
+# DIAGRAMA SOLICITADO
+
++------------------+            +------------------+
+|  server-postgres |            |  client-postgres |
+|------------------|            |------------------|
+|   vol-postgres   |<--network->|                  |
++------------------+            +------------------+
+
+      |
+      |
+      v
+
++------------------+
+|  server-drupal   |
+|------------------|
+|  drupal-data     |
+|  drupal-modules  |
+|  drupal-profiles |
+|  drupal-sites    |
++------------------+
 
 ### Eliminar un volumen específico
 ```
