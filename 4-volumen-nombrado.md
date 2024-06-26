@@ -78,24 +78,14 @@ _La instalación puede tomar varios minutos, mientras espera realice un diagrama
 
 # DIAGRAMA SOLICITADO
 
-+------------------+            +------------------+
-|  server-postgres |            |  client-postgres |
-|------------------|            |------------------|
-|   vol-postgres   |<--network->|                  |
-+------------------+            +------------------+
+server-postgres (vol-postgres) <--network--> client-postgres
 
       |
       |
       v
 
-+------------------+
-|  server-drupal   |
-|------------------|
-|  drupal-data     |
-|  drupal-modules  |
-|  drupal-profiles |
-|  drupal-sites    |
-+------------------+
+server-drupal (drupal-data, drupal-modules, drupal-profiles, drupal-sites)
+
 
 ### Eliminar un volumen específico
 ```
