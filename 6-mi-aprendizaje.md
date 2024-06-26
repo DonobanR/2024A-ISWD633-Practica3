@@ -1,3 +1,1 @@
-# COMPLETAR  
-Comparando sus conocimientos antes de hacer la práctica con sus conocimientos después de hacer la tarea, explicar los principales aprendizajes logrados para beneficio de su formación profesional.  
-Si solucionó un problema presentado al realizar la práctica también se debe documentar.
+Se aprendió la diferencia entre volúmenes nombrados y anónimos en Docker, siendo los nombrados ideales para datos persistentes y los anónimos para almacenamiento temporal. Se entendió la estructura del mountpoint de volúmenes nombrados y cómo Docker gestiona el almacenamiento en el sistema de archivos del host. También se practicó la creación de redes personalizadas para facilitar la comunicación entre contenedores, y se adquirió conocimiento sobre la limpieza de volúmenes anónimos no utilizados para optimizar el espacio en el sistema Docker.
